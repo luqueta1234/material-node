@@ -7,7 +7,7 @@
  //Importando uma constante que será nossa conexão
  export const sequelize = new Sequelize(
     /*Aqui vamos receber os parâmetros para nosso
-    banco de dados, precisamos falar para o t ypescript
+    banco de dados, precisamos falar para o typescript
     que vamos receber uma string */
     process.env.MYSQL_DB as string,
     process.env.MYSQL_USER as string,
